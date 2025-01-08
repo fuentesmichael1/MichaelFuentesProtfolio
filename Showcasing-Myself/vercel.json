@@ -1,10 +1,14 @@
 {
-    "builds": [
-      {
-        "src": "frontend/package.json",   
-        "use": "@vercel/node"             
-      }
-    ],
-    "workingDirectory": "frontend"     
-  }
-  
+  "builds": [
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "frontend/$1"
+    }
+  ]
+}
