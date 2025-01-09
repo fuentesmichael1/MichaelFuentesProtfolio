@@ -23,10 +23,13 @@ import mePic from '../assets/top_pics/me.jpeg';
 import friendsPic from '../assets/top_pics/friends.jpeg';
 
 // Import project images
-import todoList from '/src/assets/images/To-do-list.png'
-import boxGenerator from '/src/assets/images/Box-Generator.png'
-import counter from '/src/assets/images/counter.png'
-import puttingItTogether from '/src/assets/images/PuttingItTogether.png'
+import todoList from '/src/assets/images/To-do-list.png';
+import boxGenerator from '/src/assets/images/Box-Generator.png';
+import counter from '/src/assets/images/counter.png';
+import puttingItTogether from '/src/assets/images/PuttingItTogether.png';
+
+// Import certificate
+import certificatePdf from '/src/assets/certificates/file.pdf';
 
 // Contact Form
 const ContactForm = () => {
@@ -107,11 +110,6 @@ const skills = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
   },
   { 
-    name: 'Python', 
-    icon: pythonIcon,
-    url: 'https://www.python.org/'
-  },
-  { 
     name: 'React', 
     icon: reactIcon,
     url: 'https://reactjs.org/'
@@ -120,6 +118,11 @@ const skills = [
     name: 'Node.js', 
     icon: nodeIcon,
     url: 'https://nodejs.org/'
+  },
+  { 
+    name: 'Python', 
+    icon: pythonIcon,
+    url: 'https://www.python.org/'
   },
   { 
     name: 'MySQL', 
@@ -223,7 +226,7 @@ const Showcase = () => {
             <section id="skills" className="skills-section">
               <h2>Skills</h2>
               <p>Here are some of the technologies and tools I'm proficient in:</p>
-              <p>Click on a skill to learn more about it, and to see the raw code!</p>
+              <p>Click on a skill to learn more about it.</p>
               <div className="skills-grid">
                 {skills.map((skill, index) => (
                   <a 
@@ -253,6 +256,22 @@ const Showcase = () => {
                 ))}
               </div>
             </section>
+
+            <section id="certificates" className="certificates-section">
+              <h2>Certificates</h2>
+              <p>View my professional certifications:</p>
+              <div className="certificates-container">
+                <a 
+                  href={certificatePdf} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="certificate-link"
+                >
+                  View Certificate
+                </a>
+              </div>
+            </section>
+
             <section id="contact" className="contact-section">
               <ContactForm />
             </section>
