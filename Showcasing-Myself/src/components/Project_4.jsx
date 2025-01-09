@@ -18,15 +18,15 @@ const Project_4 = () => {
           <div className="tech-stack">
             <h3>Technologies Used:</h3>
             <ul>
-              <li>React.js</li>
+              <li>React.js, Vite</li>
               <li>JavaScript</li>
               <li>CSS</li>
             </ul>
           </div>
 
           <div className="project-links">
-            <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">
-              Source Code
+            <a href="https://github.com/fuentesmichael1/PuttingItTogether" target="_blank" rel="noopener noreferrer">
+              Raw Code
             </a>
           </div>
           
