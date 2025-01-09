@@ -210,7 +210,7 @@ const Showcase = () => {
             </section>
             <section id="links" className='links'>
               <h2>Links</h2>
-              <a href='https://www.linkedin.com/in/michael-fuentes-487626289/' target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href='http://www.linkedin.com/in/fuentesmichael159' target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <a href='https://github.com/fuentesmichael1' target="_blank" rel="noopener noreferrer">GitHub</a>
               <a 
                 href="https://docs.google.com/document/d/1U7rRKHJu4Y3zKUPgl8eO8jbnbOBKLtioqnRZMoS-hlg/edit?usp=sharing" 
