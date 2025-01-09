@@ -500,21 +500,32 @@ p {
     align-items: center;
     gap: 0.5rem;
     padding: 0.5rem;
+    font-size: 14px;
   }
 
   .navbar {
-    width: 90%;
-    padding: 10px 0;
+    width: 95%;
+    padding: 5px 0;
+    margin-top: -40px;
   }
 
   .showcase-header {
-    width: 90%;
-    padding: 1.5rem;
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .showcase-header h1 {
+    font-size: 1.5rem;
   }
 
   .circle-container {
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
+  }
+
+  .circle-image {
+    width: 150px;
+    height: 150px;
   }
 
   .about-section,
@@ -522,18 +533,33 @@ p {
   .projects-section,
   .certificates-section,
   .contact-section {
-    width: 90%;
-    padding: 1.5rem;
+    width: 95%;
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0.5rem;
   }
 
   .projects-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
   }
 
   .contact-div {
-    padding: 1rem;
+    padding: 0.5rem;
+  }
+
+  .form input,
+  .form textarea {
+    width: 100%;
   }
 }
+
 
 /* Tablets (481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
