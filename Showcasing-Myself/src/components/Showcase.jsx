@@ -23,10 +23,10 @@ import mePic from '../assets/top_pics/me.jpeg';
 import friendsPic from '../assets/top_pics/friends.jpeg';
 
 // Import project images
-import todoList from '../images/To-do-list.png';
-import boxGenerator from '../images/Box-Generator.png';
-import counter from '../images/counter.png';
-import puttingItTogether from '../images/PuttingItTogether.png';
+import todoList from '/src/assets/images/To-do-list.png'
+import boxGenerator from '/src/assets/images/Box-Generator.png'
+import counter from '/src/assets/images/counter.png'
+import puttingItTogether from '/src/assets/images/PuttingItTogether.png'
 
 // Contact Form
 const ContactForm = () => {
