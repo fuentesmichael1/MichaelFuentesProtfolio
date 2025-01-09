@@ -258,8 +258,7 @@ const Showcase = () => {
             </section>
 
             <section id="certificates" className="certificates-section">
-              <h2>Certificates</h2>
-              <p>View my professional certifications:</p>
+              <h2>Certificate</h2>
               <div className="certificates-container">
                 <a 
                   href={certificatePdf} 

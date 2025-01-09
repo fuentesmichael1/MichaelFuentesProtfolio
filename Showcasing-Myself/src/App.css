@@ -370,6 +370,45 @@ p {
   color: #666;
 }
 
+/* Certificates Section */
+.certificates-section {
+  width: 100%;
+  max-width: 1100px;
+  background: var(--card-background);
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.certificates-section:hover {
+  transform: translateY(-5px);
+}
+
+.certificates-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.certificate-link {
+  padding: 0.8rem 1.5rem;
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.certificate-link:hover {
+  background: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+
 /* Contact Section */
 .contact-section {
   width: 100%;
