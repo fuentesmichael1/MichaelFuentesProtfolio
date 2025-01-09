@@ -22,6 +22,12 @@ import familyPic from '../assets/top_pics/family.jpeg';
 import mePic from '../assets/top_pics/me.jpeg';
 import friendsPic from '../assets/top_pics/friends.jpeg';
 
+// Import project images
+import todoList from '../images/To-do-list.png';
+import boxGenerator from '../images/Box-Generator.png';
+import counter from '../images/counter.png';
+import puttingItTogether from '../images/PuttingItTogether.png';
+
 // Contact Form
 const ContactForm = () => {
   const [state, handleSubmit] = useForm('xldekzyg');
@@ -101,6 +107,11 @@ const skills = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
   },
   { 
+    name: 'Python', 
+    icon: pythonIcon,
+    url: 'https://www.python.org/'
+  },
+  { 
     name: 'React', 
     icon: reactIcon,
     url: 'https://reactjs.org/'
@@ -109,11 +120,6 @@ const skills = [
     name: 'Node.js', 
     icon: nodeIcon,
     url: 'https://nodejs.org/'
-  },
-  { 
-    name: 'Python', 
-    icon: pythonIcon,
-    url: 'https://www.python.org/'
   },
   { 
     name: 'MySQL', 
@@ -136,25 +142,25 @@ const skills = [
 const projects = [
   {
     title: "Project 1",
-    image: "/src/assets/images/To-do-list.png",
+    image: todoList,
     path: "/project1",
     description: "A simple to-do list app.",
   },
   {
     title: "Project 2",
-    image: "/src/assets/images/Box-Generator.png",
+    image: boxGenerator,
     path: "/project2",
     description: "An interactive box generator app.",
   },
   {
     title: "Project 3",
-    image: "/src/assets/images/counter.png",
+    image: counter,
     path: "/project3",
     description: "A app that counts.",
   },
   {
     title: "Project 4",
-    image: "/src/assets/images/PuttingItTogether.png",
+    image: puttingItTogether,
     path: "/project4",
     description: "A simple and interactive app that lets you change the age of a person.",
   }
@@ -217,7 +223,7 @@ const Showcase = () => {
             <section id="skills" className="skills-section">
               <h2>Skills</h2>
               <p>Here are some of the technologies and tools I'm proficient in:</p>
-              <p>Click on a skill to learn more about it.</p>
+              <p>Click on a skill to learn more about it, and to see the raw code!</p>
               <div className="skills-grid">
                 {skills.map((skill, index) => (
                   <a 
