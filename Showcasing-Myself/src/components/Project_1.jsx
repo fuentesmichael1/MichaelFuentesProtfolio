@@ -26,9 +26,6 @@ const Project_1 = () => {
           </div>
 
           <div className="project-links">
-            <a href="https://your-website-url.com" target="_blank" rel="noopener noreferrer">
-              Website
-            </a>
             <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">
               Source Code
             </a>
