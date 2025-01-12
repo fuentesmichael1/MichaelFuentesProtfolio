@@ -548,6 +548,7 @@ p {
   margin-top: 1rem;
 }
 
+/* Responsive Design */
 /* Mobile Devices (up to 480px) */
 @media (max-width: 480px) {
   .nav-content ul {
