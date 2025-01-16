@@ -37,7 +37,6 @@ const Nav = () => {
           <li onClick={() => scrollToSection('links')}>Links</li>
           <li onClick={() => scrollToSection('skills')}>Skills</li>
           <li onClick={() => scrollToSection('projects')}>Projects</li>
-          <li onClick={() => scrollToSection('certificates')}>Certificates</li>
           <li onClick={() => scrollToSection('contact')}>Contact</li>
         </ul>
       </div>
