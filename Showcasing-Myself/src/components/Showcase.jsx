@@ -208,7 +208,7 @@ const Showcase = () => {
               <p>
                 Hello, I'm Michael Fuentes, a passionate full stack software engineer with skills in JavaScript, React, Python and others.
                 I have 4 siblings and I am smack dab in the middle of them. I graduated from Coding Dojo in November of 2024,
-                I am currently live in O'Fallon MO, and I am doing solo and group projects to further my knowledge and harden my skills.
+                I am currently living in O'Fallon MO, and I am doing solo and group projects to further my knowledge and harden my skills.
               </p>
             </section>
             <section id="links" className='links'>
