@@ -426,36 +426,6 @@ p {
   transform: scale(1.05);
 }
 
-/* Certificates Section */
-.certificates-section {
-  width: 100%;
-  max-width: 1100px;
-  padding: 2rem;
-  margin: 2rem auto;
-  text-align: center;
-}
-
-.certificates-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.certificate-link {
-  padding: 0.8rem 1.5rem;
-  background: var(--primary-color);
-  color: white;
-  text-decoration: none;
-  border-radius: 25px;
-  transition: all 0.3s ease;
-  width: fit-content;
-}
-
-.certificate-link:hover {
-  background: var(--secondary-color);
-  transform: scale(1.05);
-}
-
 /* Contact Section */
 .contact-section {
   width: 100%;
