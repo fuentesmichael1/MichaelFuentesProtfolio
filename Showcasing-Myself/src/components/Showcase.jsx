@@ -44,7 +44,7 @@ const ContactForm = () => {
       <div className='contact-title-div'>
         <h1>Contact Me</h1>
         <h3>Please leave your Name, Email, and a brief message. I look forward to hearing from you!</h3>
-        <p className='contact-location'><MdLocationOn />St. Louis, MO</p>
+        <p className='contact-location'><MdLocationOn />OFallon, MO</p>
         <a href='tel:+13142188818' className='contact-number'>
           <FiPhoneCall className='contact-icon' /> +1(314) 749-8811
         </a>
