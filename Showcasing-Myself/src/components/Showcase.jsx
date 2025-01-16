@@ -213,16 +213,16 @@ const Showcase = () => {
             </section>
             <section id="links" className='links'>
               <h2>Links and Certificate</h2>
-              <a href='http://www.linkedin.com/in/fuentesmichael159' target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href='https://github.com/fuentesmichael1' target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a 
-                href="https://docs.google.com/document/d/1U7rRKHJu4Y3zKUPgl8eO8jbnbOBKLtioqnRZMoS-hlg/edit?usp=sharing" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              a/>
+              <div className="links-container">
+                <a href='http://www.linkedin.com/in/fuentesmichael159' target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href='https://github.com/fuentesmichael1' target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://docs.google.com/document/d/1U7rRKHJu4Y3zKUPgl8eO8jbnbOBKLtioqnRZMoS-hlg/edit?usp=sharing" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                  Resume
+                </a>
                 <a href={certificatePdf} target="_blank" rel="noopener noreferrer">Certificate</a>
-
-                Resume
+              </div>
             </section>
             <section id="skills" className="skills-section">
               <h2>Skills</h2>
@@ -255,20 +255,6 @@ const Showcase = () => {
                     <p>{project.description}</p>
                   </Link>
                 ))}
-              </div>
-            </section>
-
-            <section id="certificates" className="certificates-section">
-
-              <div className="certificates-container">
-                <a 
-                  href={certificatePdf} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="certificate-link"
-                >
-                  View Certificate
-                </a>
               </div>
             </section>
 
